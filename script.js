@@ -7,4 +7,7 @@ postImage.addEventListener("dblclick", function () {
     setTimeout(function () {
         postLike.style.opacity = 0
     }, 1000)
+    setTimeout(function () {
+        postLike.style.transform = "translate(-50%, -50%) scale(1)"
+    }, 1500)
 })
